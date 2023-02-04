@@ -92,3 +92,49 @@
     font-size: 20px;
     text-decoration: none;
   }
+  /************************* PAGINA HOME **************************/
+.video{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -1000;
+	background-size: cover;
+}
+.destaque p {
+  padding: 10%;
+  margin-bottom: 8%;
+  font-size: 170%;
+}
+.lista button {
+  width: 70%;
+  height: auto;
+  color: #ffffff;
+  background: #fe9b00;
+  border: 0;
+  padding:3.5%;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.lista{
+  width: 11%;
+  height: 237px;
+	margin: 10% 10% 8% 10%;
+	background-color: rgba(0, 0, 0, 0.4);
+	font-size: 20px;
+	padding: 10px 0px 10px 0px ;
+	text-align: center;
+	list-style: none;
+	border-radius: 20px;
+	border: 2px solid #584b4f;
+}
+.lista li{
+    margin: 10px 0px;
+    padding: 10px ;
+    border-left: none;
+    border-bottom: 2px solid #4e4b4d;
+    border-radius: 20px;
+}
