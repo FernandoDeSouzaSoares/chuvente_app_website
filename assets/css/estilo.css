@@ -138,3 +138,23 @@
     border-bottom: 2px solid #4e4b4d;
     border-radius: 20px;
 }
+/***********************PAGINA APLICATIVO*******************/
+.prircipal{
+    width:100%;
+    height: auto;
+  }
+  h1{
+    text-align: center;
+  }
+  .direito{
+    margin: 5% 0% 0% 5%;
+  }
+  .esquerdo{
+    margin: 5% 0% 0% 0%;
+  }
+  .esquerdo p{
+    margin: 0% 0% 20% 0%;
+  }
+  .direito p{
+    margin: 0% 0% 10% 0%;
+  }
