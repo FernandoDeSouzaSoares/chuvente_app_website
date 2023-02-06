@@ -158,3 +158,32 @@
   .direito p{
     margin: 0% 0% 10% 0%;
   }
+  /********************** PAGINA ALAGAMENTOS  ***********************/
+.video1{
+    position: relative;
+    left: 30%;
+    top:70px;
+    width:40%;
+    height:auto;
+  }
+  caption{
+    margin: 0% 0% 3% 0%;
+    font-weight: bold;
+    font-size: 200%;
+  }
+  table {
+    margin: 8%;
+    height: auto;
+  }
+  th{
+    margin:100px;
+  }
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  tr:hover {
+    background-color:white;
+    color: black;
+  }
