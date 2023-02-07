@@ -187,3 +187,52 @@
     background-color:white;
     color: black;
   }
+  /****************** PAGINA GRUPO **********************/
+.fotos {
+    border: 2px solid #584b4f;
+    float: left;
+    width: 24.99999%;
+}
+figure.fotos img {
+    width: 100%;
+    height: auto;
+
+}
+figcaption.desc {
+    padding: 15px;
+}
+.ajuste{
+  position: relative;
+  left: 300px;
+}
+/***mensagem do programador*******/
+.balao {
+    position: relative;
+    display: inline-block;
+}
+.balao .mensagem {
+    visibility: hidden;
+    background-color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 85%;
+    left: 50%;
+    margin-left: -60px;
+    width: 100%;
+}
+.balao .mensagem::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+.balao:hover .mensagem {
+    visibility: visible;
+}
