@@ -236,3 +236,54 @@ figcaption.desc {
 .balao:hover .mensagem {
     visibility: visible;
 }
+/******************* PAGINA CONTATO ***********************/
+.contato input,
+.contato button {
+  display: block;
+}
+form {
+  margin: 2% auto 6% 10%;
+
+}
+.contato input,
+textarea {
+  width: 100%;
+  height: auto;
+  margin-bottom:8%;
+  padding: 3%;
+}
+.contato button {
+  margin: 3% 0 0 0;
+  background: #fe9b00;
+  border: 0;
+  color: #fff;
+  width: 210px;
+  height: 38px;
+  font-size: 1.2em;
+  border-radius: 0.3em;
+  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+}
+.contato h1{
+  text-align: center;
+}
+.preto{
+  color:black;
+}
+.linha{
+  border:0px;
+  margin-left: 15%;
+  padding: 5%;
+}
+.endereco{
+  list-style: none;
+  margin: 2% 0% 0% 6% ;
+}
+.enderecoli{
+  padding: 3% 0% 5% 12%;
+  border-bottom: 2px solid #584b4f;
+  border-left: 2px solid #584b4f;
+}
+.enderecoli b{
+  display: block;
+  margin: 0% 20% 6% 0%;
+}
