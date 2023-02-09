@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import "normalize.css";
-
+@import "mq.css" screen and (max-width: 768px);
 /***************** CHAMADA DO CSS GRIDE ***********************/
 .cor{
     color: #ffffff;
