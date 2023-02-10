@@ -38,3 +38,32 @@ nav ul{
   position: relative;
   left: -35%;
 }
+/************ padrão para o footer *****************/
+section footer {
+    text-align: center;
+    display: block;
+    position: relative;
+      top:200px;
+    background: #584b4f;
+  }
+  footer a img{
+    position:relative;
+    left: 29%;
+    margin: 1% 2%;
+    float:left;
+    width: 8%;
+    height:auto;
+    }
+  footer p{
+    margin: 0px;
+    text-align: center;
+    display: block;
+    position: relative;
+    left: 4%;
+      background: #584b4f;
+  }
+  footer .col-4{
+    width: 75%;
+    margin: 0px;
+    padding: 5px;
+  }
